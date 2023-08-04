@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Add Task</title>
+
+</head>
+<body>
+
+	<form action="addtask" method="post">
+		<fieldset style="width: 400px">
+			<legend> Add Task </legend>
+
+			<table>
+				<tr>
+					<th>Task Name</th>
+					<td><input type="text" name="taskname"></td>
+				</tr>
+				<tr>
+					<th>Task Description</th>
+					<td><textarea rows="3" cols="5" name="taskdescription"></textarea></td>
+				</tr>
+				<tr>
+					<th>Number Of Days</th>
+					<td><input type="number" name="noofdays"></td>
+				</tr>
+
+			</table>
+			<br>
+			<button style="margin-left: 20px" type="submit">Add</button>
+			<button style="margin-left: 180px" type="reset">Cancel</button>
+		</fieldset>
+	</form>
+	<br>
+	<a style="margin-left: 40px" href="backtohome"><button type="button">Back</button></a>
+
+</body>
+</html>
